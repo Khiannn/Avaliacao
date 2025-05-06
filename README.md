@@ -1,50 +1,31 @@
-# Welcome to your Expo app 👋
+# Avaliação - React Native
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Como criar um emulador no Android Studio
 
-## Get started
+1. Abra o **Android Studio**.
+2. Clique em **More Actions** no centro do app.
+2. Vá em **Device Manager**.
+3. Clique em **Create Device**.
+4. Escolha um modelo de celular (ex: Pixel 5) e clique em "Next".
+5. Clique em **Finish** para criar o emulador.
 
-1. Install dependencies
+## Como habilitar o SDK
 
-   ```bash
-   npm install
-   ```
+- No Android Studio, vá em **Preferences** (ou **Settings** no Windows).
+- Vá até **Appearance & Behavior > System Settings > Android SDK**.
+- Marque a versão mais recente do Android (ex: Android 11 - API 30).
+- Clique em **Apply** para instalar o SDK.
 
-2. Start the app
+## Como configurar o ANDROID_HOME e JAVA_HOME
 
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+### Windows:
+1. Abra as **variáveis de ambiente** do sistema.
+2. Adicione:
 
 ```bash
-npm run reset-project
-```
+ANDROID_HOME=C:\Users\SEU_USUARIO\AppData\Local\Android\Sdk
+JAVA_HOME=C:\Program Files\Java\jdk-VERSAO
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Como abrir o projeto no emulador: 
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- No terminal dentro do projeto de o comando "npm run android" para abrir o projeto no emulador criado#
